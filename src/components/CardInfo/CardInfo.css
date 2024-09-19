@@ -1,5 +1,5 @@
 .card-info {
-    padding: 48px;
+    padding: 4.8rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,36 +8,36 @@
 }
 
 .card-info .title {
-    font-size: 28px;
+    font-size: 2.8rem;
     font-weight: 900;
-    line-height: 37.04px;
+    line-height: 3.704rem;
     color: #1F2E55;
 }
 
 .card-info .descr {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 500;
-    line-height: 26px;
-    margin: 18px 0 18px;
+    line-height: 2.6rem;
+    margin: 1.8rem 0;
     color: #717FA6;
 }
 
 .annual-plan-container {
     background-color: #F7F9FF;
-    border-radius: 12px;
-    padding: 24px;
+    border-radius: 1.2rem;
+    padding: 2.4rem;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 32px;
+    margin-bottom: 3.2rem;
 }
 
 .annual-plan-container .annual-plan-data {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 2rem;
 }
 
 .annual-plan-data .plan-main-info {
@@ -45,20 +45,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: 6px;
+    gap: 0.6rem;
 }
 
-.plan-main-info .plan-main-title {
-    font-size: 16px;
+.plan-main-info .plan-title {
+    font-size: 1.6rem;
     font-weight: 900;
-    line-height: 21.17px;
+    line-height: 2.117rem;
     color: #1F2E55;
 }
 
 .plan-main-info .plan-price {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 500;
-    line-height: 21.17px;
+    line-height: 2.117rem;
     text-align: left;
     color: #717FA6;
 }
@@ -66,9 +66,9 @@
 .change-button-container #change-plan-button {
     background-color: transparent;
     border: none;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 700;
-    line-height: 18.52px;
+    line-height: 1.852rem;
     text-decoration: underline;
     color: #382AE1;
 }
@@ -84,19 +84,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: 32px;
+    gap: 3.2rem;
 }
 
 .payment-buttons-container #proceed-to-payment {
     background-color: #382AE1;
-    box-shadow: 0px 20px 20px 0px #382AE131;
-    border-radius: 12px;
-    padding: 16px 0;
+    box-shadow: 0rem 2rem 2rem 0rem #382AE131;
+    border-radius: 1.2rem;
+    padding: 1.6rem 0;
     border: none;
     width: 100%;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 900;
-    line-height: 19.85px;
+    line-height: 1.985rem;
     color: #fff;
 }
 
@@ -107,9 +107,9 @@
 .payment-buttons-container #cancel-order {
     background-color: transparent;
     border: none;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 900;
-    line-height: 19.85px;
+    line-height: 1.985rem;
     color: #717FA6;
 }
 
@@ -117,38 +117,38 @@
     color: #1F2E55;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 60rem) {
     .card-info {
-        padding: 32px;
+        padding: 3.2rem;
     }
 
     .card-info .title {
-        font-size: 22px;
-        line-height: 29.11px;
+        font-size: 2.2rem;
+        line-height: 2.911rem;
     }
 
     .card-info .descr {
-        font-size: 15px;
-        line-height: 25px;
-        margin: 16px 0;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        margin: 1.6rem 0;
     }
 
     .annual-plan-container {
-        padding: 16px;
+        padding: 1.6rem;
     }
 
     .annual-plan-container .annual-plan-data {
-        gap: 14px;
+        gap: 1.4rem;
     }
 
     .annual-plan-data .plan-main-info {
         text-align: left;
-        gap: 3px;
+        gap: 0.3rem;
     }
 
     .plan-main-info .plan-price,
     .plan-main-info .plan-title {
-        font-size: 14px;
-        line-height: 18.52px;
+        font-size: 1.4rem;
+        line-height: 1.852rem;
     }
 }

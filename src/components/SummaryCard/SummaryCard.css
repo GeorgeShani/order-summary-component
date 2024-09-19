@@ -1,15 +1,15 @@
 .order-summary-card {
     background-color: #fff;
     border-radius: 20px;
-    width: 450px;
+    width: 45rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 60rem) {
     .order-summary-card {
-        width: 327px;
+        width: 32.7rem;
     }
 }

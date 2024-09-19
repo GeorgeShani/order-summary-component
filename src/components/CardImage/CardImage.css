@@ -1,7 +1,7 @@
 .card-image {
     border-radius: 20px 20px 0 0;
-    width: 450px;
-    min-height: 220px;
+    width: 45rem;
+    min-height: 22rem;
 }
 
 .card-image img {
@@ -12,9 +12,9 @@
     display: block;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 60rem) {
     .card-image {
-        width: 327px;
-        min-height: 160px;
+        width: 32.7rem;
+        min-height: 16rem;
     }
 }
