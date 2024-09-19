@@ -1,0 +1,154 @@
+.card-info {
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-info .title {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 37.04px;
+    color: #1F2E55;
+}
+
+.card-info .descr {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 18px 0 18px;
+    color: #717FA6;
+}
+
+.annual-plan-container {
+    background-color: #F7F9FF;
+    border-radius: 12px;
+    padding: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.annual-plan-container .annual-plan-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.annual-plan-data .plan-main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+}
+
+.plan-main-info .plan-main-title {
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 21.17px;
+    color: #1F2E55;
+}
+
+.plan-main-info .plan-price {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.17px;
+    text-align: left;
+    color: #717FA6;
+}
+
+.change-button-container #change-plan-button {
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.52px;
+    text-decoration: underline;
+    color: #382AE1;
+}
+
+#change-plan-button:hover {
+    text-decoration: none;
+    color: #766CF1;
+}
+
+.payment-buttons-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.payment-buttons-container #proceed-to-payment {
+    background-color: #382AE1;
+    box-shadow: 0px 20px 20px 0px #382AE131;
+    border-radius: 12px;
+    padding: 16px 0;
+    border: none;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 19.85px;
+    color: #fff;
+}
+
+#proceed-to-payment:hover {
+    background-color: #766CF1;
+}
+
+.payment-buttons-container #cancel-order {
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 19.85px;
+    color: #717FA6;
+}
+
+#cancel-order:hover {
+    color: #1F2E55;
+}
+
+@media screen and (max-width: 600px) {
+    .card-info {
+        padding: 32px;
+    }
+
+    .card-info .title {
+        font-size: 22px;
+        line-height: 29.11px;
+    }
+
+    .card-info .descr {
+        font-size: 15px;
+        line-height: 25px;
+        margin: 16px 0;
+    }
+
+    .annual-plan-container {
+        padding: 16px;
+    }
+
+    .annual-plan-container .annual-plan-data {
+        gap: 14px;
+    }
+
+    .annual-plan-data .plan-main-info {
+        text-align: left;
+        gap: 3px;
+    }
+
+    .plan-main-info .plan-price,
+    .plan-main-info .plan-title {
+        font-size: 14px;
+        line-height: 18.52px;
+    }
+}
