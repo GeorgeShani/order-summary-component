@@ -12,7 +12,7 @@
     display: block;
 }
 
-@media screen and (max-width: 60rem) {
+@media screen and (max-width: 37.5rem) {
     .card-image {
         width: 32.7rem;
         min-height: 16rem;

@@ -11,7 +11,7 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 37.5rem) {
   .background {
     background-image: url("pattern-background-mobile.svg");
   }

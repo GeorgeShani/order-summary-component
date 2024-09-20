@@ -117,7 +117,7 @@
     color: #1F2E55;
 }
 
-@media screen and (max-width: 60rem) {
+@media screen and (max-width: 37.5rem) {
     .card-info {
         padding: 3.2rem;
     }
